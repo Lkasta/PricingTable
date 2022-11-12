@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+
+body {
+    font-family: 'Open Sans';
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#1D539E, #1D539E);
+    background-size: auto 50vh;
+    background-repeat: no-repeat;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.text>h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.text>p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 295px;
+    padding: 33px;
+    display: flex;
+    height: 404px;
+    margin-top: 65px;
+    border-radius: 8px;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.precoBox {
+    display: flex;
+    align-items: baseline;
+    line-height: 49px;
+}
+
+.preco1,
+.preco2 {
+    font-weight: 700;
+    color: #1E2338;
+}
+
+.preco1 {
+    font-size: 36px;
+}
+
+.preco2 {
+    font-size: 18px;
+}
+
+.infoPreco {
+    padding-left: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #828799;
+}
+
+.type {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1E2338;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828799;
+    padding: 10px 0px 20px 0px;
+}
+
+hr {
+    background-color: #EEEEEE;
+    margin: 10px 0px;
+    width: 100%;
+    height: 1px;
+}
+
+.topics>p {
+    display: flex;
+    align-content: center;
+    color: #828799;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.topics>p>img {
+    /* justify-content: center; */
+    align-items: baseline;
+    padding-right: 15px;
+}
+
+.btn {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    
+    background-color: transparent;
+    border: 1px solid #1D539E;
+    border-radius: 10px;
+
+    text-transform: uppercase;
+    font-style: normal;
+    color: #1D539E;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.cardPopular
+
+.btn :nth-child(2) {
+    background-color: #1D539E;
+    color: white;
+}
