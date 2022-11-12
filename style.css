@@ -39,6 +39,7 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -48,18 +49,19 @@ body {
     width: 295px;
     padding: 33px;
     display: flex;
-    height: 404px;
+    height: 420px;
     margin-top: 65px;
     border-radius: 8px;
     flex-direction: column;
     background-color: white;
+    transition: transform 0.5s;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .precoBox {
     display: flex;
     align-items: baseline;
-    line-height: 49px;
+    padding-top: 34px;
 }
 
 .preco1,
@@ -129,7 +131,7 @@ hr {
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
-    
+
     background-color: transparent;
     border: 1px solid #1D539E;
     border-radius: 10px;
@@ -142,12 +144,41 @@ hr {
     line-height: 25px;
 }
 
-.container .card:nth-child(2) .btn{
+.container .card:nth-child(2) .btn {
     background-color: #1D539E;
     color: #FFFFFF;
 }
 
-/* .container .card:nth-child(2) .precoBox{
+.container .card:nth-child(2) {
+    background-image: linear-gradient(#FFCC29, #FFCC29);
+    background-size: auto 85px;
+    background-repeat: no-repeat;
+}
+
+.container .card:nth-child(2) .type {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1D539E;
+}
+
+.title {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94px;
+    height: 32px;
+    text-align: center;
     background-color: #1D539E;
-    color: #FFFFFF;
-} */
+    border-radius: 40px;
+    color: #EEEEEE;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
