@@ -121,6 +121,7 @@ hr {
 }
 
 .btn {
+    cursor: pointer;
     margin-top: auto;
     width: 100%;
     display: flex;
@@ -141,9 +142,12 @@ hr {
     line-height: 25px;
 }
 
-.cardPopular
-
-.btn :nth-child(2) {
+.container .card:nth-child(2) .btn{
     background-color: #1D539E;
-    color: white;
+    color: #FFFFFF;
 }
+
+/* .container .card:nth-child(2) .precoBox{
+    background-color: #1D539E;
+    color: #FFFFFF;
+} */
